@@ -12,14 +12,6 @@ The app also includes a setInterval function that checks the availability of the
 2. Install dependencies with `npm install`
 3. Start the server with `node app.js` (or `nodemon app.js` if you have nodemon installed)
 
-## Usage
-
-To check the availability of a website, make a GET request to `/check?url=[website-url]`. Replace `[website-url]` with the URL of the website you want to check.
-
-Example: `http://localhost:3000/check?url=http://example.com`
-
-The app will return a JSON response with the status of the website. If the website is available, the response will have a status of 'OK'. If the website is not available or there is an error making the request, the response will have a status of 'Error'.
-
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.

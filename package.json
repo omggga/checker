@@ -19,7 +19,7 @@
   "homepage": "https://github.com/omggga/checker#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "express": "^4.19.2",
+    "express": "^4.21.0",
     "moment": "^2.29.4",
     "node-fetch": "^3.3.1"
   }
